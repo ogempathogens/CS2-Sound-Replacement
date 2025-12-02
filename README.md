@@ -22,3 +22,15 @@ brain.
 2. to avoid errors, make sure you have CS2 workshop tools installed (CS2 steam properties -> DLC -> Counter-Strike 2 Workshop Tools -> checked),
 3. drag & drop your sound files onto cs2_sound_converter, it will spit out the converted files in the same dir (.vsnd_c),
 4. those files can be directly dropped into the custom sounds folder and used.
+
+## updating the signature
+**disclaimer: i am no expert in IDA, im still learning, and the IDAPython script could not work at all.**
+
+#### pre-setup
+1. install the [SigMaker plugin](https://github.com/A200K/IDA-Pro-SigMaker) into the plugins folder of IDA,
+2. restart IDA if it was running.
+
+#### creating the signature
+1. open ida -> SHIFT + F2 -> Import -> select the script -> Run
+2. should put you at the start of the desired function,
+3. CTRL + ALT + S -> SigMaker shows up -> leave all options on default -> OK -> you should see the sig in the output window (Signature for xyz: output sig). 
