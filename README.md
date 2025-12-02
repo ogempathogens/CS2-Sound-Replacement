@@ -5,6 +5,11 @@ intercept original CS2 sounds with fully custom ones.
 ## what can i use this for?
 replace gun sounds with p100 pre-2016 csgo sounds, change menu sounds, etc. the posibilities are endless.
 
+
+## showcase
+[<img src="https://github.com/user-attachments/assets/e2540532-4629-4420-b7ca-93cb95ff9bbe" width="1200" height="800"
+/>](https://www.youtube.com/embed/NpxsFPRik48)
+
 ## requirements
 your cheat (duh), <br>
 ida, <br>
